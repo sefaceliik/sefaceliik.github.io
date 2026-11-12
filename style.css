@@ -1,0 +1,9 @@
+:root { color-scheme: dark; --bg:#070b1a; --text:#a8b8e8; --gold:#ffe8a3; --lav:#baa6ff; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system, "Avenir Next", system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+h1 { color: var(--gold); font-weight: 400; font-size: 2.4rem; margin: 0 0 4px; }
+h2 { color: var(--lav); font-weight: 500; margin-top: 2rem; }
+a { color: var(--lav); }
+.tag { opacity: .85; margin-bottom: 2rem; }
+.lang { float: right; font-size: .9rem; }
